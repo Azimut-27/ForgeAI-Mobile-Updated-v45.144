@@ -58,7 +58,7 @@ import {
   X,
   Zap
 } from 'lucide-react';
-import { buildForgeCoachContext, generateGeminiResponse } from './lib/gemini';
+import { buildForgeCoachContext, generateGeminiResponse } from './lib/gemini.js';
 import {
   createFallbackMovementProfile,
   getMovementProfileByName,
